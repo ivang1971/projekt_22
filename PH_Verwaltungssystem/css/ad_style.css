@@ -1,0 +1,60 @@
+/* Admin login */
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+.form-popup {
+  display: none;
+  position: absolute;
+  bottom: 300px;
+  right: 15px;
+  z-index: 9;
+}
+
+.form-container {
+  border-radius:15px;
+  max-width: 250px;
+  padding: 10px;
+  background-color:#FFD39B;
+}
+
+.form-container input[type=text], .form-container input[type=password] {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+  border-radius:15px;
+  width: 250px;
+  padding: 15px;
+  margin: 5px 0 22px -5px;
+  border: none;
+  background: white;
+}
+
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  font-size: large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: white;
+  outline: none;
+}
+
+.form-container .btn {
+  font-size: large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 15px;
+  background-color:gold;
+  color: black;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+  margin-left:25px;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+.form-container .cancel {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: red;
+}
+
+.form-container .btn:hover {
+  opacity: 1;
+}

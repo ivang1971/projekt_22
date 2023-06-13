@@ -1,0 +1,13 @@
+[PERSONAL]
+UID=3140000001
+PR_IDNummer=3140000001
+PR_ModeZentrum=14
+ShortName=Flatex Access
+Number=1
+PR_Personenkreis=7
+CM_Gueltig=1121
+GS=0
+LS=0
+Einzug=0
+[ACCESS]
+Permissions=HKD_Flatex

@@ -1,0 +1,10 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "files.autoSave": "afterDelay",
+    "php.debug.executablePath": "C:\\xampp\\php\\php.exe",
+    "vscode-edge-devtools.webhint": false,
+    "workbench.startupEditor": "none",
+    "php.validate.executablePath": "C:\\xampp\\php\\php.exe",
+    "vscode-edge-devtools.webRoot": "${workspaceFolder}",
+    "intelephense.environment.documentRoot": "PH_Verwaltungssystem"
+}
